@@ -1,0 +1,9 @@
+def function
+    x := 5
+    y := 5
+enddef
+
+x := 2
+function
+x + y
+exit

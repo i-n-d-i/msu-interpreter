@@ -1,0 +1,14 @@
+def function
+    x := 5
+    if x > 2 then
+        y := 5
+    else
+        y := 2
+    endif
+    sum := x + y
+enddef
+
+x := 1
+function
+(sum + 5) * (sum - 8)
+exit
